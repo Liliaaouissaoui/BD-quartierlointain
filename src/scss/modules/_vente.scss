@@ -1,0 +1,49 @@
+.container-vente {
+  display: flex;
+  flex-direction: column;
+  font-family: "Pathway Extreme", sans-serif;
+}
+
+.container-vente h2 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--bleu);
+  margin: 100px 0px 15px;
+}
+
+.container-vente h3 {
+  letter-spacing: 1.82px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 46px;
+  color: var(--bleu);
+}
+
+.container-vente p {
+  color: var(--bleu);
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.container-vente img {
+  box-shadow: 4px 21px 30.9px 0px black;
+}
+
+.container-vente a {
+  text-decoration: none;
+}
+
+button {
+  color: var(--bleu);
+  background: none;
+  border: 3px solid var(--bleu);
+  border-radius: 33px;
+  padding: 8px 65px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.68px;
+  font-weight: 500;
+  font-size: 16px;
+}

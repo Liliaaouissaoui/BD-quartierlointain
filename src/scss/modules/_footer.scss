@@ -1,0 +1,40 @@
+footer {
+  background: var(--bleu);
+  color: white;
+  padding-top: 40px;
+}
+
+footer h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+footer p {
+  font-family: "Pathway Extreme", sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer-logo-réseaux svg {
+  margin: 0px 7px 0px;
+}
+
+#footerCopyrightGen {
+  text-align: center;
+}
+
+#footerCopyright {
+  text-align: end;
+}
+
+#footerCopyrightGen,
+#footerCopyright {
+  font-family: "Pathway Extreme", sans-serif;
+  color: rgba(255, 255, 255, 0.36);
+  letter-spacing: 1.05px;
+}

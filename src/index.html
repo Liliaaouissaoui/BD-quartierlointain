@@ -5,10 +5,214 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a
+              href="https://www.youtube.com/watch?v=e1voUppdYL0"
+              target="_blank"
+              >DÉCOUVRIR QUARTIER LOINTAIN</a
+            >
+          </div>
+          <div class="col">
+            <a
+              href="https://www.casterman.com/Bande-dessinee/Catalogue/quartier-lointain-sens-de-lecture-original/9782203211636"
+              target="_blank"
+              >ACHETER LE LIVRE</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="parallax-container">
+        <div class="parallax-element" id="bckg-1">background</div>
+        <div class="titel" id="book-titel"><h1>Quartier lointain</h1></div>
+      </div>
+      <!--  <video src="">paysage train animation</video> -->
+      <div class="container-paysage object-wrapper">
+        <div id="paysage" class="object object-paysage"></div>
+      </div>
+      <div>
+        <!--cimetière perso au milieu-->
+        <div class="container-cimetiere object-wrapper">
+          <div id="perso" class="object object-perso"></div>
+        </div>
+      </div>
+      <div class="container-lune object-wrapper">
+        <div id="lune" class="object object-lune"></div>
+      </div>
 
+      <!-- suivis svg - papillon (défilement-img) - animation  -->
+      <div class="container-double-animation">
+        <div class="container-papillon motionPath">
+          <svg
+            width="1146"
+            height="6414"
+            viewBox="0 0 1146 6414"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="path"
+              d="M151.412 1C167.906 410.164 251.872 400.422 351.832 415.477C451.793 430.533 978.583 233.036 928.104 795.415C877.624 1357.79 -113.483 2659.68 11.9675 3039.61C137.418 3419.55 1231.48 3429.29 1139.52 3966.88C1047.56 4504.46 -46.0096 5561.02 268.365 6413"
+              stroke="#8E8E8E"
+              stroke-width="2"
+            />
+          </svg>
+          <div id="rect" class="object object-papillon">papillon</div>
+        </div>
+
+        <div class="container-wrapper">
+          <div class="container-miroir object-wrapper">
+            <div id="miroir" class="object object-miroir"></div>
+          </div>
+          <div class="container-img-2 object-wrapper">
+            <div id="img-2" class="object object-img-2"></div>
+          </div>
+          <div class="container-img-3 object-wrapper">
+            <div id="img-3" class="object object-img-3"></div>
+          </div>
+          <div class="container-img-4 object-wrapper">
+            <div id="img-4" class="object object-img-4"></div>
+          </div>
+          <div class="container-img-5-6-7 object-wrapper">
+            <div id="img-5" class="object object-img-5"></div>
+            <div id="img-6" class="object object-img-6"></div>
+            <div id="img-7" class="object object-img-7"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-img-8 object-wrapper">
+        <div id="img-8" class="object object-img-8"></div>
+      </div>
+      <!-- suivis svg - papillon (défilement-img) - animation  -->
+
+      <div>img bubble + img perso banc</div>
+      <div>img simple banc avec papa</div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+              <div class="container-vente">
+                <h2>
+                  QUARTIER <br />
+                  LOINTAIN
+                </h2>
+                <h3>JIRÔ TANIGUCHI</h3>
+                <p>
+                  Hiroshi est un père de famille japonaise qui revit son enfance
+                  en interrogeant ses proches. La disparition incompréhensible de
+                  son père alors qu'il avait quatorze ans l'empêche de continuer
+                  sa propre vie de façon sereine.
+                </p>
+                <button>
+                  <a
+                    href="https://www.fr.fnac.ch/a1891251/Quartier-lointain-Adaptation-de-frederic-boilet-Quartier-lointain-Jiro-Taniguchi"
+                    target="_blank"
+                    >ACHETER LE LIVRE</a
+                  >
+                </button>
+              </div>
+              
+            </div>
+            <div class="col">
+              <img
+                src="/src/img/livre.png"
+                alt="image de la couverture du livre"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>QUARTIER <br>LOINTAIN</h3>
+            <p>JIRÔ TANIGUCHI</p>
+          </div>
+          <div class="col">
+            <div class="footer-container-casterman">
+              <h3>
+                <a href="https://www.casterman.com/" target="_blank">CASTERMAN</a>
+              </h3>
+              <p>
+                Ce livre est édité par Casterman.<br> Pour retrouver plus d’oeuvres <br>
+                rendez-vous sur leur <a href="https://www.casterman.com/" target="_blank">site</a>.
+              </p>
+              <div class="footer-logo-réseaux">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="37"
+                  height="37"
+                  viewBox="0 0 37 37"
+                  fill="none"
+                >
+                  <path
+                    d="M32.5228 32.0669L21.6757 16.2531L21.6942 16.2679L31.4745 4.93359H28.2062L20.2388 14.1589L13.9118 4.93359H5.34016L15.4671 19.6978L15.4658 19.6966L4.78516 32.0669H8.05349L16.9113 21.8031L23.9512 32.0669H32.5228ZM12.6168 7.40026L27.8362 29.6003H25.2462L10.0145 7.40026H12.6168Z"
+                    fill="white"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="37"
+                  height="37"
+                  viewBox="0 0 37 37"
+                  fill="none"
+                >
+                  <path
+                    d="M26.9788 10.0205H26.9943M10.7913 3.08301H26.208C30.4652 3.08301 33.9163 6.53415 33.9163 10.7913V26.208C33.9163 30.4652 30.4652 33.9163 26.208 33.9163H10.7913C6.53415 33.9163 3.08301 30.4652 3.08301 26.208V10.7913C3.08301 6.53415 6.53415 3.08301 10.7913 3.08301ZM24.6663 17.5284C24.8566 18.8115 24.6374 20.1218 24.0401 21.2732C23.4427 22.4245 22.4974 23.3581 21.3388 23.9413C20.1803 24.5244 18.8673 24.7274 17.5867 24.5213C16.3061 24.3153 15.1231 23.7106 14.2059 22.7935C13.2887 21.8763 12.6841 20.6933 12.478 19.4127C12.272 18.1321 12.4749 16.8191 13.0581 15.6605C13.6412 14.5019 14.5749 13.5567 15.7262 12.9593C16.8775 12.3619 18.1879 12.1427 19.4709 12.333C20.7797 12.5271 21.9913 13.1369 22.9269 14.0725C23.8624 15.008 24.4723 16.2197 24.6663 17.5284Z"
+                    stroke="white"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="37"
+                  height="37"
+                  viewBox="0 0 37 37"
+                  fill="none"
+                >
+                  <path
+                    d="M26.2083 3.08301H21.5833C19.539 3.08301 17.5783 3.89513 16.1327 5.34073C14.6871 6.78632 13.875 8.74696 13.875 10.7913V15.4163H9.25V21.583H13.875V33.9163H20.0417V21.583H24.6667L26.2083 15.4163H20.0417V10.7913C20.0417 10.3825 20.2041 9.99034 20.4932 9.70122C20.7823 9.4121 21.1745 9.24967 21.5833 9.24967H26.2083V3.08301Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col offset-4">
+            <div id="footerCopyrightGen">
+              ©Casterman - All rights reserved
+            </div>
+          </div>
+          <div class="col">
+            <div  id="footerCopyright">
+              Conditions générales <br />
+            de confidentialité
+            </div> 
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
