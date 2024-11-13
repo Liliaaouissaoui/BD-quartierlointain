@@ -1,0 +1,96 @@
+.parallax-container {
+  height: calc(100vh - 40px);
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background: rgba(30, 25, 36, 0.8);
+  position: relative;
+}
+
+#background-intro {
+  width: 1440px;
+}
+
+.parallax-element {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  position: absolute;
+}
+
+#bckg-1 {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+}
+
+.titel {
+  position: absolute;
+  z-index: -1;
+}
+
+.object {
+  border: 5px solid blue;
+  width: 10%;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.object-wrapper ~ .object-wrapper {
+  justify-content: end;
+}
+
+.object-wrapper {
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid black;
+}
+
+/* paysage - wrapper */
+
+.object-paysage {
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  position: absolute;
+}
+
+.container-paysage {
+  display: flex;
+  align-items: center;
+  border: 5px solid green;
+  position: relative;
+}
+
+.container-paysage img {
+  width: 100%;
+}
+
+/* cimetière - wrapper */
+
+.container-cimetiere {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-image: url(/src/img/fond_cimetiere.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.object-perso {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  transform: scale(1);
+  width: 45%;
+  height: 55%;
+  bottom: 45%;
+}
+
+.object-perso img {
+  width: 110%;
+}

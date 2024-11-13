@@ -1,3 +1,41 @@
-main img {
-  max-width: 500px;
+.title-intro {
+  color: var(--bleu);
+  text-transform: uppercase;
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 80px;
+  left: 5%;
+  top: 5%;
+}
+
+#background-intro-move {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.background-intro {
+  background-image: url(/src/img/background_intro.webp);
+}
+
+#main-container-bancpere {
+  display: flex;
+  justify-content: center;
+}
+
+#main-banc-pere {
+  max-width: 1000px;
+  margin-bottom: 200px;
+}
+
+#lune /* a revoir orh ca veut pas prendre tout la largeur et que cela reste responsive*/ {
+  width: 100vw;
+  height: 1000px;
+  transform: rotate(180deg);
+  object-fit: cover;
+  display: flex;
+}
+
+#img-lune {
+  width: 100%;
+  object-fit: cover;
 }

@@ -24,32 +24,40 @@
             >
           </div>
           <div class="col">
-            <a
+            <button>
+              <a
               href="https://www.casterman.com/Bande-dessinee/Catalogue/quartier-lointain-sens-de-lecture-original/9782203211636"
               target="_blank"
               >ACHETER LE LIVRE</a
             >
+            </button>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <div class="parallax-container">
-        <div class="parallax-element" id="bckg-1">background</div>
-        <div class="titel" id="book-titel"><h1>Quartier lointain</h1></div>
+      <div class="parallax-container background-intro">
+        <div class="parallax-element" id="bckg-1">
+          <img id="background-intro-move" src="../src/img/intro_papillon.webp" alt="">
+        </div>
+        <div class="titel title-intro" id="book-titel"><h1>Quartier <br>lointain</h1></div> 
       </div>
       <!--  <video src="">paysage train animation</video> -->
       <div class="container-paysage object-wrapper">
-        <div id="paysage" class="object object-paysage"></div>
+        <div id="paysage" class="object object-paysage"><img src="img/Hiroshi_train.webp" alt=""></div>
       </div>
       <div>
         <!--cimetière perso au milieu-->
-        <div class="container-cimetiere object-wrapper">
-          <div id="perso" class="object object-perso"></div>
+        <div class="test">
+          <div class="container-cimetiere object-wrapper">
+            <div id="perso" class="object-perso"><img src="img/hiroshi_marche_cimetiere.webp" alt=""></div>
+          </div>
         </div>
       </div>
       <div class="container-lune object-wrapper">
-        <div id="lune" class="object object-lune"></div>
+        <div id="lune" class="object object-lune">
+          <img id="img-lune" src="./img/ciel_lune.webp" alt="ciel avec la lune">
+        </div>
       </div>
 
       <!-- suivis svg - papillon (défilement-img) - animation  -->
@@ -60,7 +68,7 @@
             height="6414"
             viewBox="0 0 1146 6414"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns=""
           >
             <path
               id="path"
@@ -94,12 +102,38 @@
       </div>
 
       <div class="container-img-8 object-wrapper">
-        <div id="img-8" class="object object-img-8"></div>
+        <div>
+          <img id="bulle2" src="../src/img/bulle2.png" alt="">
+        </div>
+        <div id="bulle1">
+          <img id="bulle1" src="../src/img/bulle1.png" alt="">
+        </div>
+        <!-- <div>
+          <img id="bulle3" src="../src/img/bulle3.png" alt="">
+        </div>
+        <div>
+          <img id="bulle4" src="../src/img/bulle4.webp" alt="">
+        </div>
+        <div>
+          <img id="bulle5" src="../src/img/bulle5.webp" alt="">
+        </div>
+        <div>
+          <img id="bulle6" src="../src/img/bulle6.webp" alt="">
+        </div>
+        <div>
+          <img id="bulle7" src="../src/img/bulle7.webp" alt="">
+        </div> -->
+        <div id="img-8" class="object object-img-8">
+          <img src="./img/banc.webp" alt="hiroshi posé sur un banc">
+        </div>
       </div>
       <!-- suivis svg - papillon (défilement-img) - animation  -->
 
       <div>img bubble + img perso banc</div>
-      <div>img simple banc avec papa</div>
+      <div id="main-container-bancpere"><img id="main-banc-pere" src="/src/img/banc_perefils.webp" alt="image d'une page du livre du père et du fils assis sur un banc"></div>
+      <div id="vente-container-background">
+        <div id="vente-background"><img src="/src/img/papillons-entier1.webp" alt="papillon dessin"></div>
+      </div>
       <div class="container">
         <div class="row">
             <div class="col">
@@ -126,8 +160,8 @@
               
             </div>
             <div class="col">
-              <img
-                src="/src/img/livre.png"
+              <img id="vente-livre"
+                src="/src/img/livre.webp"
                 alt="image de la couverture du livre"
               />
             </div>
