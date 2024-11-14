@@ -27,6 +27,11 @@
   margin-bottom: 200px;
 }
 
+.container-lune {
+  position: static;
+  margin-bottom: 10px;
+}
+
 #lune {
   width: 100vw;
   height: 1000px;
@@ -48,8 +53,9 @@
   border-radius: 50%;
 }
 
-.container-wrapper .object-wrapper {
-  margin: 20% 0;
+.container-papillon {
+  z-index: 2;
+  position: absolute;
 }
 
 /* miroir - wrapper - venant de la gauche*/
@@ -58,6 +64,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  margin: -20% 0;
 }
 
 .object-miroir {
@@ -66,12 +73,81 @@
   transform: translateX(-60%);
 }
 
+.object-miroir img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* img-2 - wrapper - venant de la droite*/
+
+.container-img-2 {
+  display: flex;
+  align-items: center;
+  margin: -20% 0;
+}
+
+.object-img-2 {
+  width: 60%;
+  height: 30%;
+  transform: translateX(60%);
+}
+
+.object-img-2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* img-3 - wrapper - venant de la gauche*/
+
+.container-img-3 {
+  display: flex;
+  justify-content: start !important;
+  align-items: center;
+  margin: -20% 0;
+}
+
+.object-img-3 {
+  width: 60%;
+  height: 30%;
+  transform: translateX(-60%);
+}
+
+.object-img-3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* img-4 - wrapper - venant de la droit*/
+
+.container-img-4 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: -10% 0;
+}
+
+.object-img-4 {
+  width: 60%;
+  height: 30%;
+  transform: translateX(60%);
+}
+
+.object-img-4 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 // case plonger
 
 .container-img-5-6-7 {
   display: flex;
   justify-content: space-around !important;
   align-items: center;
+  margin: 10% 0;
 }
 
 .object-img-5 {

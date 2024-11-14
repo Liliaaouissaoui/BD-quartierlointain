@@ -4,7 +4,7 @@
   border: 5px solid black;
   border-radius: 10px;
   background: rgba(30, 25, 36, 0.8);
-  position: relative;
+  position: static;
 }
 
 #background-intro {
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   height: 40%;
-  position: absolute;
+  position: static;
 }
 
 #bckg-1 {
@@ -36,7 +36,6 @@
   border: 2px solid blue;
   width: 10%;
   height: 10%;
-  border-radius: 10px;
 }
 
 .object-wrapper ~ .object-wrapper {
@@ -46,7 +45,6 @@
 .object-wrapper {
   width: 100vw;
   height: 100vh;
-  border: 5px solid black;
 }
 
 /* paysage - wrapper */
