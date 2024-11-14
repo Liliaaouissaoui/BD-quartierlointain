@@ -27,7 +27,7 @@
   margin-bottom: 200px;
 }
 
-#lune /* a revoir orh ca veut pas prendre tout la largeur et que cela reste responsive*/ {
+#lune {
   width: 100vw;
   height: 1000px;
   transform: rotate(180deg);
@@ -38,4 +38,86 @@
 #img-lune {
   width: 100%;
   object-fit: cover;
+}
+
+/* papillon - motionPath */
+
+.object-papillon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container-wrapper .object-wrapper {
+  margin: 20% 0;
+}
+
+/* miroir - wrapper - venant de la gauche*/
+
+.container-miroir {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.object-miroir {
+  width: 60%;
+  height: 30%;
+  transform: translateX(-60%);
+}
+
+// case plonger
+
+.container-img-5-6-7 {
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+.object-img-5 {
+  width: 30%;
+  height: 80%;
+  bottom: 20%;
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object-img-5 img {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.object-img-6 {
+  width: 30%;
+  height: 80%;
+  bottom: 0%;
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object-img-6 img {
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+.object-img-7 {
+  width: 30%;
+  height: 80%;
+  bottom: -20%;
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.object-img-7 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
