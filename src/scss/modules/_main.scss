@@ -201,3 +201,23 @@
   height: auto;
   display: block;
 }
+
+.container-img-9 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: -30%;
+  margin-bottom: 30%;
+}
+
+.object-img-9 {
+  width: 60%;
+  height: 30%;
+  transform: translateX(60%);
+}
+
+.object-img-9 img {
+  width: 50%;
+  height: auto;
+  display: block;
+}

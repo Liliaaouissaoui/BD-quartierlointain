@@ -62,7 +62,7 @@ gsap.to("#rect", {
     end: "bottom 75%",
     //     end: "bottom+=1000px top", // point de fin de l'animation
     scrub: 2, // synchronise l'animation avec le défilement
-    markers: true, // pour visualiser les points de déclenchement
+    // markers: true, // pour visualiser les points de déclenchement
   },
 });
 
@@ -71,7 +71,7 @@ gsap.to("#miroir", {
     trigger: ".container-miroir",
     start: "center bottom",
     scrub: 1,
-    markers: true,
+    // markers: true,
   },
   x: "60%",
 });
@@ -81,7 +81,7 @@ gsap.to("#img-2", {
     trigger: ".container-img-2",
     start: "center bottom",
     scrub: 1,
-    markers: true,
+    // markers: true,
   },
   x: "-40%",
 });
@@ -91,7 +91,7 @@ gsap.to("#img-3", {
     trigger: ".container-img-3",
     start: "center bottom",
     scrub: 1,
-    markers: true,
+    // markers: true,
   },
   x: "-20%",
 });
@@ -101,7 +101,7 @@ gsap.to("#img-4", {
     trigger: ".container-img-4",
     start: "center bottom",
     scrub: 1,
-    markers: true,
+    // markers: true,
   },
   x: "0",
 });
@@ -134,6 +134,26 @@ gsap.to("#img-7", {
     // markers: true,
   },
   top: "0",
+});
+
+gsap.to("#miroir-2", {
+  scrollTrigger: {
+    trigger: ".container-miroir-2",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  x: "60%",
+});
+
+gsap.to("#img-9", {
+  scrollTrigger: {
+    trigger: ".container-img-9",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  x: "10%",
 });
 
 // gsap.to("#img-8", {
