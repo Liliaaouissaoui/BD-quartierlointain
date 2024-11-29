@@ -115,7 +115,7 @@ gsap.to("#img-5", {
   },
   top: "0",
 });
-// AK
+
 gsap.to("#img-6", {
   scrollTrigger: {
     trigger: ".container-img-5-6-7",
@@ -125,7 +125,7 @@ gsap.to("#img-6", {
   },
   top: "0",
 });
-// AK
+
 gsap.to("#img-7", {
   scrollTrigger: {
     trigger: ".container-img-5-6-7",
@@ -156,34 +156,89 @@ gsap.to("#img-9", {
   x: "10%",
 });
 
-// gsap.to("#img-8", {
-//   scrollTrigger: {
-//     trigger: ".container-img-8",
-//     start: "center bottom",
-//     scrub: 1,
-//     // markers: true,
-//   },
-//   top: "-20%",
-// });
+gsap.to("#img-8", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "-20%",
+});
 
-// gsap.to(".bulle", {
-//   scrollTrigger: {
-//     trigger: ".container-img-8",
-//     start: "center bottom",
-//     scrub: 1,
-//     // markers: true,
-//   },
-//   top: "10%", // Anime la position `top` de chaque bulle
-//   stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
-// });
+gsap.to(".bulle", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "10%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
 
-// gsap.to("#bulle5", {
-//   scrollTrigger: {
-//     trigger: ".container-img-8",
-//     start: "center bottom",
-//     scrub: 1,
-//     // markers: true,
-//   },
-//   top: "0%", // Anime la position `top` de chaque bulle
-//   stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
-// });
+gsap.to("#bulle2", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  bottom: "70%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
+
+gsap.to("#bulle3", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "90%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
+
+gsap.to("#bulle4", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  bottom: "70%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
+
+gsap.to("#bulle5", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "90%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
+
+gsap.to("#bulle6", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "90%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
+
+gsap.to("#bulle7", {
+  scrollTrigger: {
+    trigger: ".container-img-8",
+    start: "center bottom",
+    scrub: 1,
+    // markers: true,
+  },
+  top: "90%", // Anime la position `top` de chaque bulle
+  stagger: 0.1, // Décalage de 0.1s entre chaque bulle pour un effet en cascade
+});
