@@ -17,6 +17,19 @@
   background-image: url(/src/img/background_intro.webp);
 }
 
+#train_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+video {
+  max-width: 1000px;
+  max-height: 800px;
+  width: 100%;
+  height: auto;
+}
+
 #main-container-bancpere {
   display: flex;
   justify-content: center;
